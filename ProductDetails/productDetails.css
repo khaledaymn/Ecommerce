@@ -239,10 +239,6 @@ nav a {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-  .product-container {
-    flex-direction: column;
-  }
-
   .product-image,
   .product-info {
     width: 100%;
@@ -256,10 +252,6 @@ nav a {
 @media (max-width: 480px) {
   .product-details {
     padding: 1rem 0;
-  }
-
-  .product-container {
-    padding: 1rem;
   }
 
   .product-info h1 {
@@ -389,4 +381,14 @@ footer {
 #goToTop:hover {
   background-color: black;
   transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+  .pcontainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .info {
+    margin-left: 30px;
+  }
 }
