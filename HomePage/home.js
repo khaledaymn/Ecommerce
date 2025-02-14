@@ -120,7 +120,7 @@ function scrollToTop() {
 
 
 document.getElementById("logout").addEventListener("click", function() {
-    window.location.href = "/Login/index.html";
+    window.location.href = "/index.html";
 });
 
 
