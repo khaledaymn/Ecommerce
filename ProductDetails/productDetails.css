@@ -388,7 +388,16 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+  .product-container {
+    align-self: center;
+    width: 100%;
+  }
+  .product-image {
+    margin: 0;
+  }
   .info {
-    margin-left: 30px;
+    align-self: center;
+    width: 50%;
+    margin-left: 50px;
   }
 }
