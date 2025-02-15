@@ -15,6 +15,13 @@ document.addEventListener('DOMContentLoaded', function() {
         {
         addtocart.setAttribute("style", "background-color: #666;cursor: not-allowed;");
     } 
+
+    const menuToggle = document.getElementById('menu-toggle');
+    const navUl = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', function() {
+        navUl.classList.toggle('show');
+    });
 });
 
 
