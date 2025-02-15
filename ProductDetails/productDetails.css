@@ -390,14 +390,19 @@ footer {
   }
   .product-container {
     align-self: center;
-    width: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    margin: 0 245px 0 0;
   }
   .product-image {
     margin: 0;
+    align-self: flex-start;
   }
   .info {
     align-self: center;
-    width: 50%;
-    margin-left: 50px;
+    width: 20%;
+    margin-left: 150px;
+    justify-self: center;
   }
 }
